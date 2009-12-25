@@ -29,7 +29,7 @@
 
         android:gravity="center_vertical"
         android:src="@android:drawable/sym_action_call"
-        android:background="@drawable/call_background"
+android:background="@drawable/badge_action_call_bg"
     />
 
     <View android:id="@+id/divider"
@@ -65,6 +65,7 @@
 
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:singleLine="true"
+android:textColor="@color/textColorContactDate"
     />
     
     <ImageView android:id="@+id/photo"
@@ -91,6 +92,7 @@
         android:ellipsize="marquee"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textStyle="bold"
+android:textColor="@color/textColorContactLabel"
     />    
 
     <TextView android:id="@+id/number"
@@ -105,6 +107,7 @@
         android:singleLine="true"
         android:ellipsize="marquee"
         android:textAppearance="?android:attr/textAppearanceSmall"
+android:textColor="@color/textColorContactNumber"
     />
 
     <TextView android:id="@+id/line1"
@@ -120,6 +123,7 @@
         android:singleLine="true"
         android:ellipsize="marquee"
         android:gravity="center_vertical"
+android:textColor="@color/textColorContactName"
     />
 
 </RelativeLayout>

@@ -42,7 +42,7 @@
         android:layout_alignParentRight="true"
         android:gravity="center_vertical"
         android:src="@android:drawable/sym_action_call"
-        android:background="@drawable/call_background"
+android:background="@drawable/badge_action_call_bg"
     />
 
     <View android:id="@+id/divider"
@@ -91,6 +91,7 @@
         android:ellipsize="marquee"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textStyle="bold"
+android:textColor="@color/textColorContactLabel"
     />
 
     <TextView android:id="@+id/number"
@@ -105,6 +106,7 @@
         android:singleLine="true"
         android:ellipsize="marquee"
         android:textAppearance="?android:attr/textAppearanceSmall"
+android:textColor="@color/textColorContactNumber"
     />
 
     <TextView android:id="@+id/name"
@@ -121,6 +123,7 @@
         android:ellipsize="marquee"
         android:gravity="center_vertical|left"
         android:textAppearance="?android:attr/textAppearanceLarge"
+android:textColor="@color/textColorContactName"
     />
 
 </RelativeLayout>
@@ -128,7 +131,6 @@
     <View android:id="@+id/list_divider"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/divider_horizontal_dark_opaque"
     />
     
 </LinearLayout>
