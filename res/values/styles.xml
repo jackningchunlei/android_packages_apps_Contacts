@@ -31,7 +31,7 @@
         <item name="android:src">@drawable/ic_btn_round_more</item>
     </style>
 
-    <style name="TallTitleBarTheme" parent="android:Theme.NoTitleBar">
+    <style name="TallTitleBarTheme" parent="android:Theme.Light.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
@@ -43,5 +43,10 @@
         <item name="android:windowNoDisplay">true</item>
         <item name="android:windowIsFloating">true</item>
     </style>
+
+	<style name="CustomLightTheme" parent="android:Theme.Light">        
+		<item name="android:windowNoTitle">true</item>
+	</style>
+
 
 </resources>

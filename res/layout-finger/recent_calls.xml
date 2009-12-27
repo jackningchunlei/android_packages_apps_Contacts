@@ -22,8 +22,6 @@
         android:layout_width="fill_parent" 
         android:layout_height="fill_parent"
         android:scrollbarStyle="outsideOverlay"
-android:divider="@drawable/divider_horizontal"
-android:cacheColorHint="#00000000"
     />
     
     <TextView android:id="@android:id/empty"
