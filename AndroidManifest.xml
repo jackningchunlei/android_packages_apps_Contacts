@@ -388,7 +388,10 @@ android:theme="@style/CustomLightTheme"
             </intent-filter>
     </activity>
     
-	<activity android:name="GroupsListActivity">
+	<activity android:name="GroupsListActivity"
+android:theme="@style/CustomLightTheme"	
+	>
+
     </activity>
 
     </application>
