@@ -66,7 +66,7 @@
         <!-- Tab container for TwelveKeyDialer and RecentCallsList -->
         <activity android:name="DialtactsActivity"
             android:label="@string/launcherDialer"
-android:theme="@style/CustomLightTheme"
+            android:theme="@android:style/Theme.NoTitleBar"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:icon="@drawable/ic_launcher_phone"
@@ -308,9 +308,7 @@ android:theme="@style/CustomLightTheme"
 
         <!-- Edits the details of a single contact -->
         <activity android:name="EditContactActivity"
-                android:windowSoftInputMode="stateVisible|adjustResize"
-android:theme="@style/CustomLightTheme"
-        >
+                android:windowSoftInputMode="stateVisible|adjustResize">
             <intent-filter android:label="@string/editContactDescription">
                 <action android:name="android.intent.action.EDIT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -379,9 +377,7 @@ android:theme="@style/CustomLightTheme"
             android:theme="@style/BackgroundOnly" />
             
 	<!-- Wysie_Soh: Custom Intents -->
-	<activity android:name="ContactsPreferences"
-android:theme="@style/CustomLightTheme"
-	>
+	<activity android:name="ContactsPreferences">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -393,3 +389,6 @@ android:theme="@style/CustomLightTheme"
 
     </application>
 </manifest>
+
+
+
